@@ -38,7 +38,7 @@ body{
     font-weight: 400;
     color: white;
     border: none;
-    direction: rtl;
+    text-align: right;
     position: absolute;
 }
 
