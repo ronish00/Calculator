@@ -10,6 +10,9 @@ buttons.forEach((button) => {
         else if(e.target.dataset.value == 'X'){
             screen.value = screen.value.slice(0, -1);
         }
+        else if(e.target.dataset.value == '%'){
+            screen.value /= 100;
+        }
         else if(e.target.dataset.value == '='){
             screen.value = eval(screen.value);
             result = screen.value;
